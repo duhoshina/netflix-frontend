@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-header {
+    height: 5rem;
+    display: flex;
+}
+
+.container-left {
+    display: flex;
+}
+
+.nav-logo img {
+    height: 2rem;
+}
+
+.nav-links ul {
+    text-decoration: none;
+}
