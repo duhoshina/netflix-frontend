@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --red: #e50914;
+    --preto: rgb(22, 22, 22);
+}
+
+body {
+    color: #fff;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, Helvetica, sans-serif;
+    background-color: rgb(22, 22, 22);
+    max-height: 100vh;
+}
+
+.imagem-body {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)100%), url(../imagens/background-netflix-login.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.container-header {
+    display: flex;
+    height: 7rem;
+    justify-content: space-between;
+    padding-left: 3.5rem;
+    padding-right: 4rem;
+    align-items: center;
+}
+
+.container-left {
+    margin-right: 2rem;
+}
+
+.container-left img {
+    cursor: pointer;
+}
+
+.container-left img:hover {
+    filter: brightness(200%);
+    filter: contrast(200%);
+}
+
+.container-entrada {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container-login {
+    width: 70%;
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)100%);
+    max-width: 28rem;
+    border-radius: 5px;
+}
+
+.container-login-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    padding: 15%;
+}
+
+.h2-container {
+    width: 80%;
+    font-size: 1.3rem;
+}
+
+.container-input input {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    height: 3rem;
+    background-color: #333;
+    border-style: none;
+    border-radius: 4.5px;
+    padding-left: 1rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.entrar-button {
+    border-style: none;
+    background-color: var(--red);
+    padding: 0.5rem 1.2rem;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    width: 100%;
+    height: 4vh;
+    text-align: center;
+    font-weight: 700;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 0.8rem;
+    color: rgb(148, 148, 148);;
+}
+
+.buttons-container a {
+    text-decoration: none;
+    color: rgb(148, 148, 148);
+}
+
+.check-box {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.facebook {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: rgb(148, 148, 148);
+    font-size: 0.8rem;
+}
+
+.novo-por-aqui {
+    width: 68%;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(128, 128, 128);
+}
+
+.novo-por-aqui a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    color: rgb(128, 128, 128);
+}
+
+footer {
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    width: 60%;
+    color: #757575;
+    padding-top: 75px;
+}
+
+.container-flex-footer {
+    margin-bottom: 30px;
+}
+
+.rodape-links ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-self: flex-start;
+}
+
+.rodape-links ul li a{
+    cursor: pointer;
+}
+
+.rodape-links ul li a:hover {
+    color: #fff;
+}
+
+.rodape-links ul li span {
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    width: 50%;
+}
