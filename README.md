@@ -4,5 +4,7 @@
 <h3 align="center">RESUMO DO PROJETO</h3>
 <p align="center">Para a conclusão deste repositório foram utilizados linguagens de marcação como "HTML5", de estilo "CSS3" e programação "JavaScript". Dessa forma, foi de suma importância e relevância este desenvolvimento para a validação do que foi aprendido em teoria. Foi-se utilizado, também, bibliotecas externas como o "Owl Carousel" - plugin jQuery.</p>
 <h3 align="center">CAPTURA DE TELA</h3>
-<p align="center"> INDEX.HTML (DESKTOP)
-<img src="https://github.com/duhoshina/netflix-clone/blob/master/imagens/entrada.png?raw=true">
+<p align="center"> INDEX.HTML (DESKTOP)</p>
+<div>
+  <img src="https://github.com/duhoshina/netflix/blob/main/src/img/screenshots/index-screenshots/index-desktop.png?raw=true">
+</div>
