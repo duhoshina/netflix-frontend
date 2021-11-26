@@ -192,3 +192,16 @@ ul {
     list-style: none;
     width: 50%;
 }
+
+.container-language select {
+    border-style: none;
+    background-color: none;
+    border-radius: 3.5px;
+    color: white;
+    border: 1px solid #fff;
+    line-height: 1.3rem;
+    padding: 8px 12.8px 8px 8px;
+    margin-right: 15px;
+    background: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
