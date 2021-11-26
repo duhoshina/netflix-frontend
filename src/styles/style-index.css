@@ -16,7 +16,7 @@ body {
 }
 
 .imagem-body {
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)100%), url(../imagens/background-netflix-login.jpg);
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)100%), url(../img/background-netflix-login.jpg);
     background-size: cover;
     height: 95vh;
 }
