@@ -1,5 +1,5 @@
 <h1 align="center">NETFLIX CLONE</h1>
-<a href="https://duhoshina.github.io/netflix-frontend/index.html" align="center">CLIQUE AQUI E VEJA O PROJETO NO AR</a>
+<a href="https://duhoshina.github.io/netflix-frontend/index.html" align="center" target="_blank">CLIQUE AQUI E VEJA O PROJETO NO AR</a>
 <h3 align="center">INTRODUÇÃO</h3>
 <p align="center">Este repositório autoral foi desenvolvido com a finalidade de práticar os conhecimentos sobre a biblioteca <b>"jQuery"</b> adquiridos no Bootcamp "WEB DEVELOPER" da Digital Innovation One.</p>
 <h3 align="center">RESUMO DO PROJETO</h3>
